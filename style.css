@@ -1,0 +1,115 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #313b45,
+        #625e6e
+    );
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+}
+#novatarefa{
+    position: relative;
+    background-color: #37474f;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 3);
+    font-family: 'Outfit', sans-serif;
+    font-size: 17px;
+}
+#novatarefa input{
+    width: 70%;
+    height: 45px;
+    font-size: 17px;
+    border: 2px solid #808080;
+    padding: 12px;
+    background-color: #e0e0e0;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+#novatarefa input:focus{
+    outline: none;
+    border-color: #9259aa;
+}
+#novatarefa > input::placeholder{
+    color: #868686;
+    font-family: 'Outfit', sans-serif;
+}
+#novatarefa button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Outfit', sans-serif;
+    background-color: #9259aa;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+#tarefas{
+    background-color: #37474f;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 3);
+    width: 100%;
+    position: relative;
+}
+.tarefa{
+    background-color: #37474f;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #9259aa;
+    cursor: pointer;
+}
+.tarefa span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+}
+.tarefa button{
+    background-color: #9259aa;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+.trash-can{
+    height: 18px;
+}
