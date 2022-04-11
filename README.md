@@ -4,9 +4,7 @@ Adicione tarefas, clique para riscá-las como completas e delete as que não des
 
 Projeto: 
 
-
-https://user-images.githubusercontent.com/95764446/162651519-796ad5b8-c884-43f3-957e-5e9164c56d99.mp4
-
+![todolist](https://user-images.githubusercontent.com/95764446/162651629-a5a77647-0368-4430-bcbc-5302f56524e1.gif)
  
  Desenvolvido com as tecnologias:
 
