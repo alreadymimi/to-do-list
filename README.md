@@ -2,8 +2,10 @@ Cria uma lista de tarefas!
 
 Adicione tarefas, clique para riscá-las como completas e delete as que não deseja mais.
 
-Projeto: https://github.com/alreadymimi/to-do-list
+Projeto: 
 
+
+https://user-images.githubusercontent.com/95764446/162651519-796ad5b8-c884-43f3-957e-5e9164c56d99.mp4
 
  
  Desenvolvido com as tecnologias:
